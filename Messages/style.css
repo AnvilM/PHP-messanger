@@ -1,0 +1,38 @@
+.send-form{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 90%;
+    background-color: #101010;
+    margin-top: 20px;
+    padding: 10px 5%;
+}
+.send-form > *+*{
+    margin-left: 20px;
+}
+.send-form > textarea{
+    width: 80%;
+    height: 50px;
+    min-height: 20px;
+    max-height: 500px;
+}
+.send-form > button{
+    width: 20%;
+}
+.wrapper{
+    flex-direction: column;
+    
+}
+
+.messages > .message{
+    display: flex;
+    flex-direction: row;
+    word-wrap: break-word;
+    justify-content: space-between;
+}
+
+
+.messages > .message > .text{
+    word-break: break-all;
+    width: 70%;
+}
